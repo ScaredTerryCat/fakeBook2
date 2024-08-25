@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{margin:0;background-color:green;}
+.banner{background-color:pink;}
+.title{background-color:purple;border:3px solid black;color:yellow;padding:3px;}
+.title{width:fit-content;display:inline-element;}
+.title{border-radius:10px;}
+.banner{display:flex;justify-content:center;}
+.banner{border:3px solid black;border-radius:10px;}
+.title{max-width:100%;overflow-wrap:break-word;box-sizing:border-box;}
+.banner{max-width:100%;overflow-wrap:break-word;box-sizing:border-box;}
+input{display:block;margin-bottom:20px;}
+.formContainer{background-color:black;padding:10px 20px 10px 20px;width:fit-content;}
+.main{display:flex;justify-content:center;align-items:center;height:100vh;}
+.form{border:2px solid green;padding:10px;}
+.formContainer{border:2px solid purple;}
+h2{color:red;}
+h2{overflow-wrap:break-word;box-sizing:border-box;max-width:100%;}
+</style>
+</head>
+<body>
+<div class="banner">
+<h1 class="title">Sign Up.Please</h1>
+</div>
+<div class="main">
+<div class="formContainer">
+<form class="form" action="signup.php" method="post">
+<br>
+<input type="text" required name="username" id="username" placeholder="Username"/>
+<input type="password" required name="password1" id="password1" placeholder="Password"></input>
+<input type="password" required name="password2" id="password2" placeholder="Confirm password"></input>
+<input type="text" required name="securityQuestion" id="securityQuestion" placeholder="Security question"/>
+<input type="text" required name="securityAnswer" id="securityAnswer" placeholder="Security answer"/>
+<input type="submit" value="Create account">
+</form>
+<h2>This user already exists !</h2>
+</div>
+</div>
+</body>
+</html>

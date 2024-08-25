@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+#titleDiv {
+    display:inline-block;
+padding:3px;
+    outline: 3px solid blue;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+#title {
+margin:0;
+    background-color: grey;
+    padding: 5px;
+    font-size: 40px;
+    border-radius: 10px;
+    border: 3px solid red;
+    outline: 3px solid lightgreen;
+}
+
+red { color: red; }
+green { color: lightgreen; }
+blue { color: blue; }
+#banner{display:flex;justify-content:center;padding-top:30px;background-color:darkred;padding-bottom:30px;}
+#story{margin-top:100px;background-color:white;margin-left:100px;margin-right:100px;border-radius:20px;padding-top:3px;color:black;margin-bottom:30px;}
+p{padding:10px;text-align:center;background-color:grey;margin:40px;margin-bottom:0px;}
+#subtitle{color:white;text-align:center;background-color:black;margin-right:10px;margin-left:10px;}
+#contact{color:red;text-align:right;margin-right:40px;
+margin-bottom:20px;}

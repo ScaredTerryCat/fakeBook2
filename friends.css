@@ -1,0 +1,14 @@
+body{margin:0;background-color:black;color:white;}
+.banner{
+background-color:red;
+display:flex;
+align-items:center;
+gap:10px;
+overflow-x:scroll;
+white-space:nowrap;
+
+}
+.banner input{font-size:15px;}
+blue{color:blue;background-color:yellow;padding-left:3px;padding-right:3px;}
+yellow{color:yellow;}
+greenB{background-color:lightgreen;padding:3px;border-radius:10px;}

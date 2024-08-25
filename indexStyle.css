@@ -1,0 +1,87 @@
+body {
+    background-color: brown;
+    margin: 0;
+}
+
+#title {
+    color: yellow;
+    background-color: black;
+    width: fit-content;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 70px;
+    border: 3px solid white;
+}
+
+#titleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#topBanner {
+    background-color: purple;
+box-sizing:border-box;
+	width:100%;
+}
+
+#topNav {
+    background-color: grey;
+    display: flex;
+    justify-content: flex-start; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+button {
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-right: 20px;
+    transition: background-color 0.5s ease;
+}
+
+#b1 {
+    background-color: red;
+    margin-left: 30px;
+}
+
+#b2 {
+    background-color: lightgreen;
+}
+
+#b3 {
+    background-color: blue;
+}
+
+red {
+    color: red;
+}
+
+green {
+    color: lightgreen;
+}
+
+blue {
+    color: blue;
+}
+
+#logoContainer {
+    text-align: center;
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+}
+
+#logo {
+    border-radius: 10px;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin:0 auto;
+	padding-right:10%;
+	padding-left:10%;
+}
+

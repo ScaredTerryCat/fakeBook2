@@ -1,0 +1,5 @@
+body{background-color:grey;display:flex;justify-content:center;align-items:center;height:100vh;margin:0;}
+#form{background-color:red;padding:30px;transition:background-color 1s ease;}
+#username{margin-bottom:30px;}#password{margin-bottom:30px;}
+#s1{background-color:lightgreen;padding-right:20px;padding-left:20px;transition:background-color 1s ease;}
+#s2{background-color:blue;padding-top:20px;padding-bottom:20px;transition:background-color 1s ease;}

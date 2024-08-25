@@ -1,0 +1,24 @@
+<?php
+$username=$_POST["username"];
+$password=$_POST["password"];
+$host="localhost";
+$database_user="root";
+$database_password="";
+$database="fakebook";
+$conn=mysqli_connect($host,$database_user,$database_password,$database);
+$query="select * from authentication where Username=? and Password=?;";
+$configured_query=mysqli_prepare($conn,$query);
+mysqli_stmt_bind_param($configured_query,"ss",$username,$password);
+mysqli_stmt_execute($configured_query);
+$result=mysqli_stmt_get_result($configured_query);
+if(mysqli_num_rows($result)>0){
+session_start();
+$_SESSION["username"]=$username;
+$_SESSION["password"]=$password;
+header("Location:main.html");
+die();
+}
+else{header("Location:unsuccessfuLogin.html");}
+mysqli_query($conn,$query);
+mysqli_close($conn);
+?>
